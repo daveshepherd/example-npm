@@ -1,5 +1,9 @@
 {
   "name": "example-npm",
+  "repository": {
+    "type": "git",
+    "url": "github:daveshepherd/example-npm"
+  },
   "scripts": {
     "build": "npx projen build",
     "bump": "npx projen bump",
